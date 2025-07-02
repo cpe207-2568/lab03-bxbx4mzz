@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--link with css-->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>My Portfolio</title>
+    <!--import bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <style>
+    body {
+      background-color: rgb(251, 253, 217);
+    }
+  </style>
+  <body>
+    <div class="d-flex justify-content-center tab-bar my-4 gap-4">
+      <ul class="nav nav-underline d-flex justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="experience.html"
+            >Experience</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="d-flex flex-column flex-sm-row justify-content-center align-items-center mx-auto gap-4"
+      style="max-width: 700px"
+    >
+      <div>
+        <img
+          src="imgs/me.png"
+          class="rounded-circle"
+          width="200"
+          height="200"
+          style="object-fit: cover"
+        />
+      </div>
+      <div class="text-center text-sm-start">
+        <div class="display-6 mt-3 mt-sm-4 mb-2 title">Wiphawee Chaikham</div>
+        <div class="text d-none d-sm-block">
+          Hi my name is Beam. I am studying computer engineering at Chiangmai
+          University. I love to playing Valorant all the time :3
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center my-3">
+      <div
+        class="px-4 py-2 mb-3 border border-dark rounded-pill shadow-sm head"
+        style="width: fit-content"
+      >
+        Experience
+      </div>
+    </div>
+    <div
+      class="d-flex gap-3 justify-content-center flex-wrap align-items-start pb-5"
+    >
+      <div class="card" style="width: 18rem">
+        <img src="imgs/project.jpg" class="card-img-top" />
+        <div class="card-body">
+          <h5 class="card-title head">Dokpeep Application</h5>
+          <p class="card-text text">
+            An application for ordering and tracking products from the Dokpeep
+            Minimart School Shop. By using the tool, Appsheet to create and
+            design with figma.
+          </p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <video autoplay muted loop playsinline class="card-img-top">
+          <source src="video/scratch.mp4" type="video/mp4" />
+        </video>
+        <div class="card-body">
+          <h5 class="card-title head">Blackchin and Shrimp</h5>
+          <p class="card-text text">
+            Blackchin and Shrimp is an FPS game where we will have different
+            items and more difficult next waves, created with Scratch and using
+            Procreate for graphics.
+          </p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <video autoplay muted loop playsinline class="card-img-top">
+          <source src="video/flashcard.mp4" type="video/mp4" />
+        </video>
+        <div class="card-body">
+          <h5 class="card-title head">flashcard</h5>
+          <p class="card-text text">
+            Flashcard game to remind of vocabulary. You can create groups of
+            words as you want. There are different modes to choose from. The
+            tools used are c++ (raylib) and figma.
+          </p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="imgs/mailbox.jpg" class="card-img-top" />
+        <div class="card-body">
+          <h5 class="card-title head">Smart AI Mailbox</h5>
+          <p class="card-text text">
+            Use arduino with c to create a smart mailbox by installing an object
+            detection sensor inside the box. When a letter arrives, it will be
+            notified in the Line application.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img
+      src="https://cdn.pixabay.com/photo/2021/11/04/19/39/jellyfish-6769173_960_720.png"
+      alt=""
+      class="bg"
+    />
+  </body>
+</html>

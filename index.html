@@ -3,7 +3,129 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--link with css-->
+    <link rel="stylesheet" href="css/style.css" />
     <title>My Portfolio</title>
+    <!--import bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        background-color: rgb(251, 253, 217);
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div class="d-flex justify-content-center tab-bar my-4 gap-4">
+      <ul class="nav nav-underline d-flex justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="experience.html">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="d-flex flex-column flex-sm-row justify-content-center align-items-center mx-auto gap-4"
+      style="max-width: 700px"
+    >
+      <div>
+        <img
+          src="imgs/me.png"
+          class="rounded-circle"
+          width="200"
+          height="200"
+          style="object-fit: cover"
+        />
+      </div>
+      <div class="text-center text-sm-start">
+        <div class="display-6 mt-3 mt-sm-4 mb-2 title">Wiphawee Chaikham</div>
+        <div class="text d-none d-sm-block">
+          Hi my name is Beam. I am studying computer engineering at Chiangmai
+          University. I love to playing Valorant all the time :3
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center my-3">
+      <div
+        class="px-4 py-2 mb-3 border border-dark rounded-pill shadow-sm head"
+        style="width: fit-content"
+      >
+        skill
+      </div>
+    </div>
+      <div style="max-width: 700px" class="mx-auto px-3 mb-4">
+        <div
+          class="d-flex flex-column flex-sm-row shadow-sm bg-white rounded-4 overflow-hidden mb-4"
+        >
+          <div class="d-none d-sm-block">
+            <img
+              src="imgs/programming.jpg"
+              width="150"
+              height="150"
+              class="rounded-start-4"
+              style="object-fit: cover"
+              alt="Programming image"
+            />
+          </div>
+          <div class="p-4 flex-grow-1 text-center text-sm-start">
+            <p class="fw-semibold fs-5 mb-2 head">Programming</p>
+            <span class="text-muted text">
+              I develop applications using C++, develop games using Scratch, and also use C to communicate with aduino.
+          </div>
+        </div>
+        <div
+          class="d-flex flex-column flex-sm-row shadow-sm bg-white rounded-4 overflow-hidden"
+        >
+          <div class="p-4 flex-grow-1 text-center text-sm-start">
+            <p class="fw-semibold fs-5 mb-2 head">UI/UX Designing</p>
+            <span class="text-muted text">
+              Figma helps me design UI that’s both user-friendly and visually appealing.
+            </span>
+          </div>
+          <div class="d-none d-sm-block">
+            <img
+              src="imgs/uxui.png"
+              width="150"
+              height="150"
+              style="object-fit: cover"
+              class="rounded-end-4"
+              alt="UI/UX image"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="image-row mb-3">
+      <div class="image-row">
+        <img src="imgs/c.png" alt="" />
+        <img src="imgs/c++.png" alt="" />
+        <img src="imgs/python.webp" alt="" />
+        <img src="imgs/figma.webp" alt="" />
+      </div>
+    </div>
+        <img
+      src="https://cdn.pixabay.com/photo/2021/11/04/19/39/jellyfish-6769173_960_720.png"
+      alt=""
+      class="bg"
+    />
+  </body>
 </html>
